@@ -1,0 +1,1 @@
+La razon por la que deseo estar sólo en este proyecto es porque para quien va enfocado podría ser un posible cliente mio y no deseo incomodar a mi compañero por la elección de mi proyecto, ya que tal vez el podria tener en mente otra idea y al final entrariamos en desacuerdo.
