@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+
+*{
+	font-family: 'Open Sans Condensed', Helvetica, sans-serif;
+}
+
+
+
+
+/*Eliminamos los margenes y paddings que agrega el navegador por defecto*/
+* {
+  padding: 0;
+  margin: 0;
+}
+ 
+/*Agregamos margenes inferiores a los parrafos*/
+p {
+  margin-bottom: 20px;
+}
+a{
+color: #fff;
+}
+header {
+	float: left;
+  background: #729EC9;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+#pos {
+  float: right; /* Desplazamos el nav hacia la izquierda */
+}
+#proy:hover{
+background: #152E64;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+ 
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+ 
+nav ul li:hover {
+  background: #1E3851;
+}
+.contenido {
+  padding-top: 80px;
+}
+.wrapper {
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+}
+td {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0 20px;
+    text-align: justify;
+    vertical-align: top;
+    width: 33%;
+     border-right: 5px solid #729EC9 
+}
+h1{
+	font-size: 50px;
+	color: #1E3851;
+}
+
+
