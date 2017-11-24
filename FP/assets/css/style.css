@@ -1,0 +1,211 @@
+@import url("main.css");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+
+*{
+	font-family: 'Open Sans Condensed', Helvetica, sans-serif;
+}
+
+
+
+#banner .content .image{
+	display:block;
+	margin:0 auto;
+}
+
+#banner .content header {
+    display: block;
+    vertical-align: middle;
+    margin:0 auto;
+}
+
+#banner .content header p{
+	margin:0 auto;
+	text-align:center;
+	letter-spacing: 10px;
+	color:#fff;
+	text-shadow:0px 0px 1px rgba(0,0,0,0.5);
+}
+
+header h2 + p{
+	font-size:1.15em;
+
+}
+
+#banner .content header h2{
+	margin:0 auto;
+	text-align:center;
+	letter-spacing: 10px;
+	font-weight: 100;
+	color:#fff;
+	text-shadow:0px 1px 3px rgba(0,0,0,0.5);
+}
+
+#banner .content header h2 span{
+	font-weight: bold;
+	color:#fff;
+}
+
+#banner .content .image{
+	background:#fff;
+	box-shadow:0px 1px 3px rgba(0,0,0,0.3);
+}
+
+#banner .content .image img{
+	border-radius:0;
+	padding: 60px 20px 20px 30px;
+}
+
+#logo a{
+	letter-spacing: 4px;
+	font-weight:bold;
+	color:#fff;
+	font-size:0.6em;
+	text-shadow:0px 1px 3px rgba(0,0,0,0.5);
+}
+#logo a:hover{
+	text-decoration:none;
+}
+
+#header nav ul li a, #header nav ul li span {
+    border: 0;
+    display: inline-block;
+    height: inherit;
+    line-height: 4em;
+    color: #fff;
+    letter-spacing: 2px;
+    outline: 0;
+    -webkit-transition:all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	text-align: center;
+	text-shadow:0px 1px 3px rgba(0,0,0,0.3);
+}
+
+#header nav ul li a:hover, #header nav ul li span:hover {
+	text-decoration: none;
+	font-weight: normal;
+	-webkit-transition:all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+
+#banner:after{
+	background-image:none;
+	background-color:linear-gradient((0,0,0,0.1),(0,0,0,0.5));
+}
+
+
+#tres{
+	display:inline-block;
+	width:33%;
+}
+#dos{
+	display:inline-block;
+	width:49.8%;
+}
+
+#cuatro{
+	display:inline-block;
+	width:24.7%;
+}
+
+#margin{
+	padding-left:10px;
+	margin-top:15px;
+	margin-bottom:5px;
+}
+
+input[type="text"], input[type="password"], input[type="email"], select {
+    height: 3em;
+    margin: 2px;
+}
+
+
+
+
+#login-form{
+	width:50%;
+	float:none;
+	margin:0 auto;
+	background-color:#999;
+}
+
+#label1{
+	text-align:center;
+}
+
+.\31 0u, .\31 0u\24 {
+    width: 83.3333333333%;
+    clear: none;
+    margin: 0 auto;
+}
+
+#login-form {
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+    background-color: #999;
+    padding:20px;
+}
+
+#label1 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#login-p{
+	color:#4c4c4c;
+	text-align:center;
+	font-size:18px;
+	margin:30px auto 10px auto;
+}
+
+
+#widget{
+	max-width:50%;
+	border:1px solid #e44c65;
+	border-radius:5px;
+}
+
+#widget-input{
+	padding:12px;
+}
+
+body.landing #header{
+    background: rgba(39, 40, 51, 0.965);
+    box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
+    cursor: default;
+    height: 3.5em;
+    left: 0;
+    line-height: 3.5em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+
+input[type="text"], input[type="password"], input[type="email"], select {
+    height: 3em;
+    margin: 5px !important;
+}
+
+input[type="submit"].special {
+    margin: 5px;
+}
+
+#header nav ul li {
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 0.7em;
+}
+
+#logo a {
+    letter-spacing: 4px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 0.8em;
+    text-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+}

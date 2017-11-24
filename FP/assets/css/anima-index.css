@@ -1,0 +1,12 @@
+h1 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+
+  text-transform: uppercase;
+
+  text-rendering: optimizeLegibility;
+}
+body {
+  background: white;
+
+}
+
