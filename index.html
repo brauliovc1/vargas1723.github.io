@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Expectativas Semestre i</title>
+<script>
+function addTextNode(text) {
+  var newtext = document.createTextNode(text),
+      p1 = document.getElementById("p1");
+
+  p1.appendChild(newtext);
+}
+</script>
+</head>
+
+<body>
+  <h1>Expectativas Semestre i</h1>
+
+  <h2>Relato de equipo</h2>
+  <p>El semestre i es una actividad emocionante y retadora que nos permite adentrarnos a los requerimientos de la vida profesional, 
+  donde podemos contar con el apollo de nuestros mejores profesores para impulsarnos en el desarrollo de nuestro proyecto.</p>
+  <p>En lo personal pensamos que este semestre sera el parteaguas entre la etapa de aprendizaje puro donde una nota era nuestra unica meta a una etapa donde buscamos obtener el mejor desempeño de nuestra parte y poder mostrarlo</p>
+  <p>Permitiendonos aprender de distintas areas como:</p>
+  <ul>
+  	<li>Arquitectura de Software</li>
+  	<li>Administracion de Proyectos</li>
+  	<li>Diseño interactivo</li>
+  	<li>Diseño de aplicaciones web</li>
+  	<li>Seguridad informatica</li>
+  </ul>
+  <br>
+  <p>Lo cual nos permitira poder desarrollar en el futuro software de mayor caldiad donde se demuestre todo el conocimiento que hemos adquirido a lo largo de nuestra carrera universitaria</p>
+
+  <h3>Sin duda alguna estamos muy emocionados de aprender y ganar la mayor experiencia posible</h3>
+  <button onclick="addTextNode('YES! ');">YES!</button>
+  <button onclick="addTextNode('NO! ');">NO!</button>
+  <button onclick="addTextNode('WE CAN! ');">WE CAN!</button>
+
+  <hr />
+
+  <p id="p1">Lo lograremos? </p>
+</body>
+</html>
